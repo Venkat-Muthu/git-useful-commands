@@ -1,6 +1,7 @@
 git log --graph --all --oneline
 git rebase -i develop feature/jira-01_Description
 git remote set-head origin develop
+git remote -v
 
 # Create a local branch : feature/Feature-01
 git checkout develop
